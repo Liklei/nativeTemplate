@@ -1,0 +1,72 @@
+/* common styles */
+
+
+/* color setting */
+
+$colorff: #fff;
+$color33: #333;
+$color44: #444444;
+$color26: #268FF0;
+$color04: #0479F6;
+$colorFF: #FF0000;
+$colorDB: #DB4E4E;
+$colorBF: #BFBFBF;
+$color00C: #00C800;
+$color1FA: #1FA1FF;
+$colo1981: rgba(198, 198, 198, .2);
+$color247: RGBA(247, 250, 254, 1);
+$color223: RGBA(223, 235, 249, 1);
+$color666: #666;
+
+/* font setting */
+
+@mixin font($size, $blod) {
+    font-size: $size;
+    font-weight: $blod;
+    font-family: PingFang SC;
+    -webkit-font-smoothing: antialiased; // 字体优化
+    // user-select: none;
+}
+
+
+/* icon setting */
+
+@mixin icon($width, $height, $url) {
+    width: $width;
+    height: $height;
+    display: inline-block;
+    background: url($url) no-repeat;
+    background-size: $width $height;
+
+}
+
+/* clear fix setting */
+
+.clearfix {
+    zoom: 1;
+    &:before,
+    &:after {
+        display: table;
+        content: " ";
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+
+/* click & select setting */
+
+.cursor {
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* 超出部分省略 */
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
