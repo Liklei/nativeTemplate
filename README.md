@@ -10,8 +10,8 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## 深度解读
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# [深入剖析 WebViewJavascriptBridge](https://lision.me/webview_javascript_bridge/)
+# [WebViewJavascriptBridge原理解析](https://www.jianshu.com/p/d45ce14278c7)
+
